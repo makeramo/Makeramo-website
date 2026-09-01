@@ -1,0 +1,2 @@
+const menu=document.querySelector('.menu');const nav=document.querySelector('nav');
+menu?.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')==='true';menu.setAttribute('aria-expanded',String(!open));nav.style.display=open?'none':'flex';nav.style.position='absolute';nav.style.top='70px';nav.style.left='0';nav.style.right='0';nav.style.padding='22px 7vw';nav.style.background='#fffdf9';nav.style.flexDirection='column';nav.style.alignItems='flex-start';nav.style.borderBottom='1px solid #e6e0d7';});
